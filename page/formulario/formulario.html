@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../../css/formulario.css" />
+    <link rel="stylesheet" href="../../css/index.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="menu">
+        <ul>
+          <li><a href="../../index.html">inicio</a></li>
+          <li><a href="../sobre/sobre.html">Sobre</a></li>
+          <li><a href="../casa/casa.html">Casa</a></li>
+          <li><a href="../empresa/empresa.html">Empresa</a></li>
+          <li><a href="../formulario/formulario.html">Formulario</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="fichaCad">FICHA CADASTRAL</h1>
+    <div id="formulario">
+      <form>
+        <label for="">Nome Completo:</label>
+        <input
+          class="margem-top"
+          type="text"
+          name="PrimeiroNome"
+          min="5"
+          max="55"
+        />
+        <hr />
+        <label for="RG">RG: </label>
+        <input class="margem-top" type="number" name="RG" />
+        <label for="CPF">C.P.F: </label>
+        <input class="margem-top" type="number" name="CPF" />
+        <br />
+        <br />
+        <label for="endereco">Endereço: </label>
+        <input
+          class="margem-top"
+          type="text "
+          name="endereco"
+          min="15"
+          max="55"
+        />
+        <br />
+        <br />
+        <label for="">SEXO:</label>
+        <select name="sexo">
+          <option value="masculino">Masculino </option
+          ><option value="feminino">Feminino </option></select
+        >
+
+        <label for="">Data Nascimento:</label>
+        <input type="date" name="DataNascimento" />
+        <br />
+
+        <label for="">Situação Civil:</label>
+        <input type="radio" name="grupo" value="solteiro" />
+        <hr />
+        <label for="">solteiro(a)</label>
+        <input type="radio" name="grupo" value="casado" />
+        <label for="">Casado(a)</label>
+        <input type="radio" name="grupo" value="viuvo" />
+        <label for="">Viuvo(a)</label>
+
+        <div class="linha">
+          <button id="btn_limp" onclick="Limpar()">Limpar Dados</button>
+        </div>
+      </form>
+    </div>
+    <script src="../../js/formulario.js"></script>
+
+    <footer>
+      <p><strong>Esse site foi feito por Nelson Silva</strong></p>
+    </footer>
+  </body>
+</html>

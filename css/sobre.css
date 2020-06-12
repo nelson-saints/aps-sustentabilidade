@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#solar08 {
+  width: 67vw;
+  height: 394px;
+}
+
+#img {
+  margin: 0 auto;
+  border: 1px solid none;
+  width: 110.5ch;
+  height: 49.2ch;
+}
+
+#corpo {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.section-text {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50;
+  padding: 50px;
+}
